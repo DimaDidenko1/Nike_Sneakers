@@ -1,0 +1,513 @@
+.container {
+  max-width: 1400px;
+  min-height: 375px;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  font-family: "Montserrat";
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("../../img/icon/Group 67 (1).png");
+}
+
+.collapsed .navbar-toggler-icon {
+  background-image: url("../../img/icon/Group 67.png");
+}
+
+.noactive-768 {
+  display: none;
+}
+
+.noactive {
+  gap: 14px;
+}
+.noactive img {
+  width: 167px;
+  height: 68px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  margin-top: 67px;
+  margin-left: 83px;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  color: #A0A0A0;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.navbar-brand span {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.mainNav {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 32px;
+}
+.mainNav ul:first-child {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  gap: 15px;
+  margin-bottom: 5px;
+  padding: 0;
+  list-style: none;
+}
+.mainNav ul:first-child li:first-child {
+  grid-area: 1/1/2/2;
+}
+.mainNav ul:first-child li:nth-child(2) {
+  grid-area: 3/1/4/2;
+}
+.mainNav ul:first-child li:last-child {
+  grid-area: 2/1/3/2;
+}
+.mainNav ul:last-child {
+  gap: 18px;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0;
+  list-style: none;
+}
+
+.container-fluid {
+  margin-left: -7px;
+  padding-top: 40px;
+  flex-direction: row-reverse;
+}
+.container-fluid .img__link {
+  display: flex;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../../img/icon/Group 67.png");
+}
+
+.navbar-collapse {
+  margin: 34px 0px 0px 15px;
+}
+
+.nav-item a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  line-height: normal;
+}
+.nav-item a img {
+  width: 40px;
+  height: 40px;
+}
+.nav-item a span {
+  color: #9F9F9F;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.active {
+  position: relative;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.active::after {
+  content: "";
+  position: absolute;
+  width: 48px;
+  height: 4px;
+  background-color: #000;
+  top: 100%;
+}
+
+@media (min-width: 576px) {
+  .navbar-collapse .mainNav ul:last-child {
+    margin: 0 auto;
+  }
+  .navbar-collapse ul {
+    justify-items: center;
+  }
+  .noactive li {
+    margin: 0 auto;
+  }
+  .noactive img {
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-brand {
+    color: #A0A0A0;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+  }
+  .navbar-brand span {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+  }
+  .nav-item .mainNav {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-item .mainNav ul li {
+    align-items: center;
+  }
+  .noactive-992 {
+    display: none;
+  }
+  .noactive-992 img {
+    display: none;
+  }
+  .noactive-768 {
+    display: flex;
+  }
+  .nav-item a img {
+    width: 30px;
+    height: 30px;
+  }
+  .container-fluid {
+    padding-top: 0px;
+  }
+  .mainNav ul:first-child {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .mainNav ul:last-child {
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .navbar-collapse .mainNav ul:last-child {
+    margin: 0;
+  }
+  .nav-item a {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .active:after {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background-color: #000;
+    left: 2px;
+    top: 100%;
+  }
+  .noactive {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .noactive-768 {
+    display: flex;
+  }
+  .noactive-992 {
+    display: none;
+  }
+  .noactive-992 img {
+    display: none;
+  }
+  .noactive {
+    display: none;
+  }
+}
+@media (min-width: 1400px) {
+  .noactive-768 {
+    display: flex;
+  }
+  .noactive-992 {
+    display: none;
+  }
+  .noactive-992 img {
+    display: none;
+  }
+  .noactive {
+    display: none;
+  }
+  .container-fluid {
+    margin: -24px 0px 0px 28px;
+    padding: 0px 0px 0px 0px;
+  }
+  .mainNav {
+    gap: 223px;
+  }
+  .mainNav ul:first-child {
+    gap: 32px;
+  }
+  .mainNav ul:first-child a {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .mainNav ul:last-child {
+    gap: 30px;
+    padding-left: 81px;
+  }
+  .navbar-nav {
+    justify-content: start;
+  }
+}
+.QRcode {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 5px;
+}
+
+.qrBox {
+  background: url("../../img/bgPhoto/Slice 2 1.jpg") no-repeat;
+  background-size: cover;
+  max-height: 165px;
+  width: 100%;
+  height: 165px;
+}
+
+.qrTitle {
+  display: flex;
+  flex-direction: column;
+  padding: 17px 0px 16px 20px;
+}
+.qrTitle h2 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: normal;
+}
+.qrTitle p {
+  padding-top: 3px;
+  width: 289px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.qrTitle button {
+  margin-top: -4px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 5px;
+  background: #FFF;
+  width: 115px;
+  height: 30px;
+  flex-shrink: 0;
+  border: none;
+}
+
+.qrMoreImg {
+  background: url("../../img/bgPhoto/Slice 1 1.jpg") no-repeat;
+  background-size: cover;
+  min-height: 165px;
+  width: 100%;
+  height: 165px;
+}
+
+@media (min-width: 992px) {
+  .QRcode {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+  }
+  .qrBox {
+    background: url("../../img/bgPhoto/image 12.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 300px;
+  }
+  .qrTitle {
+    padding: 49px 0px 0px 49px;
+    gap: 18px;
+  }
+  .qrTitle h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+  }
+  .qrTitle p {
+    width: 559px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+  .qrTitle button {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 200px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+  }
+}
+.nikeLine {
+  background: url("../../img/gif/nikeLine.gif");
+  background-size: cover;
+  height: 14px;
+}
+
+@media (min-width: 992px) {
+  .nikeLine {
+    width: 100%;
+    height: 49px;
+  }
+}
+.newColectionContainer {
+  position: relative;
+  background: url("../../img/bgPhoto/Rectangle 1141.jpg") no-repeat;
+  background-size: 100% 187.5px;
+  width: 100%;
+  height: 187.5px;
+}
+
+.sneakersbox {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 52px;
+  top: 89%;
+  left: 8%;
+}
+
+.sneakersCard {
+  display: flex;
+  flex-direction: row;
+  width: 302.295px;
+  height: 137.683px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: #EFEFEF;
+  box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.25);
+}
+.sneakersCard:last-child h3 {
+  margin: 6px 0px 0px -2px;
+}
+.sneakersCard:last-child button {
+  margin: 15px 0px 0px 18px;
+}
+.sneakersCard h3 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+.sneakersCard button {
+  width: 25.21px;
+  height: 25.378px;
+  background: url("../../img/icon/Group 59.png") no-repeat;
+  background-size: 25.21px 25.378px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 50%;
+  margin: 6px 0px 0px 17px;
+}
+.sneakersCard:first-child .sneakersItem {
+  margin: -51px 0px 0px -87px;
+  background: url("../../img/sneakers/nike-air-max-270-sunset-dq7625-600_w380-removebg-preview 3.png");
+  background-size: cover;
+  width: 280.991px;
+  transform: rotate(1.338deg);
+  flex-shrink: 0;
+}
+.sneakersCard:last-child .sneakersItem {
+  margin: -66px 0px 0px -87px;
+  background: url("../../img/sneakers/Red Shoe.png");
+  background-size: cover;
+  width: 280.991px;
+  transform: rotate(1.338deg);
+  flex-shrink: 0;
+}
+
+.descriptSneakers {
+  display: flex;
+  flex-direction: column;
+  padding: 33px 0px 0px 33px;
+}
+.descriptSneakers h3 {
+  margin-top: -5px;
+  width: 128.065px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+
+.NEW {
+  color: #FF3939;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}/*# sourceMappingURL=main.css.map */
