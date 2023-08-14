@@ -1050,6 +1050,291 @@ flex-direction: row-reverse;
 
 
 
+.swiper__container {
+  display: flex;
+  position: relative;
+  width: 235.582px;
+  
+  display: flex;
+  margin: 0 auto;
+  margin-top: 69px;
+}
+.swiper {
+  display: flex;
+  flex-direction: column;
+ }
+ .Swiper__control{
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  top: -20px;
+  left: -51px;
+  gap: 95%;
+  align-items: center;
+  
+  .Swiper__title{
+    h3{
+      color: #000;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      
+      white-space: nowrap;
+    }
+   }
+ }
+.swiper-wrapper {
+  
+ }
+ .button__control{
+  display: flex;
+  margin-top: -10px;
+  gap: 14px;
+  flex-direction: row-reverse;
+ }
+ 
+ .button-next{
+  background: url('../../img/icon/Group\ 60.png');
+  background-size: 25px 25px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+ }
+ .button-prev{
+  background: url('../../img/icon/Group\ 61.png');
+  background-size: 25px 25px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+ }
+.swiper-slide {
+  display: flex;
+  width: 235.582px;
+  height: 336px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: #EFEFEF;
+  box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.25);
+  justify-content: center;
+  button{
+    background: url('../../img/icon/Group\ 59.png') no-repeat;
+    position: absolute;
+    background-size: 36px 36px;
+    background-position: center;
+    width: 36.252px;
+    height: 36.495px;
+    border-radius: 50%;
+    border: none;
+    top: 87.3%;
+    left: 75%;
+  }
+  &:first-child{
+    .sneakersItem{
+    width: 240.932px;
+    height: 200.336px;
+    transform: rotate(0.471deg);
+    margin: 33px 0px 0px -20px;
+    flex-shrink: 0;
+    background: url('../../img/sneakers/Yellow\ Shoe.png');
+    background-size: cover;
+    }
+  }
+  &:nth-child(2){
+    .sneakersItem{
+      width: 240.932px;
+      height: 200.336px;
+      transform: rotate(0.471deg);
+      margin: 33px 0px 0px -20px;
+    flex-shrink: 0;
+    background: url('../../img/sneakers/15947562_30161559_1000-removebg-preview\ 1.png');
+    background-size: cover;
+    }
+  }
+  &:last-child{
+    .sneakersItem{
+      width: 240.932px;
+      height: 200.336px;
+      transform: rotate(0.471deg);
+      margin: 33px 0px 0px -20px;
+    flex-shrink: 0;
+    background: url('../../img/sneakers/Shoe\ 1.png');
+    background-size: cover;
+    }
+  }
+}
+ .swiper__card{
+  
+  background: url('../../img/bgPhoto/NIKE.png') no-repeat;
+  background-size: 25% 336px;
+  background-position: center;
+  
+  
+    
+  
+ }
+.sneakesPrice { 
+  display: flex;
+  flex-direction: column;
+  margin: 12% 0px 0px 18px;
+  gap: 8px;
+}
+.sneakersName {
+  h2{
+    color: #000;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+ }
+.price {
+  color: #000;
+  font-family: 'Work Sans';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+ }
+.swiper-pagination { }
+.swiper-button-prev { }
+.swiper-button-next { }
+.swiper-scrollbar { }
+
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .swiper__container{
+    width: 600px;
+  }
+  .Swiper__control{
+    left: 40%;
+  }
+  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .swiper__container{
+    margin-top: 171px;
+  }
+  .Swiper__control{
+    top: -69px;
+    
+    .Swiper__title{
+      h3{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+    left: 5%;
+  }
+  .button__control{
+    gap: 25px;
+    .button-next{
+      
+      background-size: 55px 55px;
+      border-radius: 50%;
+      width: 55px;
+      height: 55px;
+     }
+     .button-prev{
+      
+      background-size: 55px 55px;
+     
+      width: 55px;
+      height: 55px;
+     }
+  }
+  .swiper__container{
+    width: 800px;
+  }
+  }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  .swiper__container{
+    width: 100%;
+  }
+ }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  .swiper-slide{
+    &:first-child{
+      .sneakersItem{
+      width: 401.932px;
+      height: 299.336px;
+      transform: rotate(0.471deg);
+      margin: 47px 0px 0px -78px;
+      
+      }
+    }
+    &:nth-child(2){
+      .sneakersItem{
+        width: 401.932px;
+        height: 299.336px;
+        transform: rotate(0.471deg);
+        margin: 57px 0px 0px -18px;
+      
+      
+      }
+    }
+    &:last-child{
+      .sneakersItem{
+        width: 401.932px;
+      height: 299.336px;
+      transform: rotate(0.471deg);
+      margin: 10px 0px 0px 35px;
+     
+      }
+    }
+  }
+  .swiper__card{
+    background-size: 25% 200px;
+    width: 392.637px;
+    
+    flex-shrink: 0;
+  }
+  .swiper__container{
+    width: 100%;
+    
+  }
+  .swiper-slide{
+    width: 392.637px;
+    height: 580px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #EFEFEF;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.25);
+  }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
