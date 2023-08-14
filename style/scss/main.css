@@ -1013,23 +1013,63 @@
   }
 }
 @media (min-width: 1400px) {
+  .sneakersName h2 {
+    color: #000;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .price {
+    color: #000;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .swiper-slide:first-child .sneakesPrice {
+    margin: 81px 0px 0px 51px;
+    gap: 21px;
+  }
   .swiper-slide:first-child .sneakersItem {
     width: 401.932px;
     height: 299.336px;
     transform: rotate(0.471deg);
-    margin: 47px 0px 0px -78px;
+    margin: 47px 0px 0px -7px;
+  }
+  .swiper-slide:first-child button {
+    top: 88%;
+    left: 77%;
+  }
+  .swiper-slide:nth-child(2) button {
+    top: 88%;
+    left: 75%;
+  }
+  .swiper-slide:nth-child(2) .sneakesPrice {
+    margin: 71px 0px 0px 42px;
+    gap: 21px;
   }
   .swiper-slide:nth-child(2) .sneakersItem {
-    width: 401.932px;
+    width: 421.932px;
     height: 299.336px;
     transform: rotate(0.471deg);
-    margin: 57px 0px 0px -18px;
+    margin: 58px 0px 0px -18px;
+  }
+  .swiper-slide:last-child button {
+    top: 88%;
+    left: 72%;
+  }
+  .swiper-slide:last-child .sneakesPrice {
+    margin: 77px 0px 0px 27px;
+    gap: 21px;
   }
   .swiper-slide:last-child .sneakersItem {
-    width: 401.932px;
-    height: 299.336px;
+    width: 406.932px;
+    height: 338.336px;
     transform: rotate(0.471deg);
-    margin: 10px 0px 0px 35px;
+    margin: 12px 0px 0px -37px;
   }
   .swiper__card {
     background-size: 25% 200px;
@@ -1046,5 +1086,120 @@
     border-radius: 18px;
     background: #EFEFEF;
     box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.25);
+  }
+  .swiper-slide button {
+    width: 55px;
+    height: 55px;
+    background-size: 55px 55px;
+  }
+  .Swiper__control {
+    left: 3.6%;
+    gap: 889px;
+  }
+}
+.nikeCat {
+  padding-top: 68px;
+}
+.nikeCat .catItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 330px;
+}
+.nikeCat .catItem:first-child {
+  background: url("../../img/icon/bgPhoto/workout.gif") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.nikeCat .catItem:nth-child(2) {
+  background: url("../../img/icon/bgPhoto/run.gif") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.nikeCat .catItem:last-child {
+  background: url("../../img/icon/bgPhoto/football.gif") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.nikeCat .Swiper__title h3 {
+  padding: 0px 0px 15px 20px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-weight: 700;
+}
+
+.catItem h2 {
+  padding: 5px 0px 0px 11px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 12px;
+}
+
+@media (min-width: 992px) {
+  .nikeCat {
+    max-width: 93%;
+    margin: 0 auto;
+    padding-top: 113px;
+  }
+  .nikeCat .catItem {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 570px;
+  }
+  .nikeCat .catItem h2 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 10.8px;
+  }
+  .nikeCat .catItem:first-child {
+    justify-content: left;
+    padding-left: 0px;
+    background-size: 50% 100%;
+    background-position: right;
+  }
+  .nikeCat .catItem:first-child h2 {
+    padding-left: 14.5%;
+    padding-top: 9px;
+  }
+  .nikeCat .catItem:nth-child(2) {
+    justify-content: right;
+    padding-right: 0px;
+    background-size: 50% 100%;
+    background-position: left;
+  }
+  .nikeCat .catItem:nth-child(2) h2 {
+    padding-right: 20.2%;
+  }
+  .nikeCat .catItem:last-child {
+    justify-content: left;
+    padding-left: 0px;
+    background-size: 50% 100%;
+    background-position: right;
+  }
+  .nikeCat .catItem:last-child h2 {
+    padding-left: 14.1%;
+  }
+  .nikeCat .Swiper__title h3 {
+    padding: 0px 0px 22px 48px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
 }/*# sourceMappingURL=main.css.map */

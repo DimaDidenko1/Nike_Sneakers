@@ -1054,7 +1054,6 @@ flex-direction: row-reverse;
   display: flex;
   position: relative;
   width: 235.582px;
-  
   display: flex;
   margin: 0 auto;
   margin-top: 69px;
@@ -1266,32 +1265,81 @@ flex-direction: row-reverse;
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
+  
+  .sneakersName{
+    h2{
+      color: #000;
+      font-family: Work Sans;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+  .price{
+    color: #000;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
   .swiper-slide{
     &:first-child{
+      .sneakesPrice{
+        margin: 81px 0px 0px 51px;
+        gap: 21px;
+      }
       .sneakersItem{
       width: 401.932px;
       height: 299.336px;
       transform: rotate(0.471deg);
-      margin: 47px 0px 0px -78px;
+      margin: 47px 0px 0px -7px;
       
       }
+      
+        button{
+          top: 88%;
+          left: 77%
+        }
+      
     }
     &:nth-child(2){
+      
+        button{
+          top: 88%;
+          left: 75%
+        }
+      
+      .sneakesPrice{
+        margin: 71px 0px 0px 42px;
+        gap: 21px;
+      }
       .sneakersItem{
-        width: 401.932px;
+        width: 421.932px;
         height: 299.336px;
         transform: rotate(0.471deg);
-        margin: 57px 0px 0px -18px;
+        margin: 58px 0px 0px -18px;
       
       
       }
     }
     &:last-child{
+      
+        button{
+          top: 88%;
+          left: 72%
+        }
+      
+      .sneakesPrice{
+        margin: 77px 0px 0px 27px;
+        gap: 21px;
+      }
       .sneakersItem{
-        width: 401.932px;
-      height: 299.336px;
+        width: 406.932px;
+      height: 338.336px;
       transform: rotate(0.471deg);
-      margin: 10px 0px 0px 35px;
+      margin: 12px 0px 0px -37px;
      
       }
     }
@@ -1306,7 +1354,13 @@ flex-direction: row-reverse;
     width: 100%;
     
   }
+  
   .swiper-slide{
+    button{
+      width: 55px;
+      height: 55px;
+      background-size: 55px 55px;
+    }
     width: 392.637px;
     height: 580px;
     flex-shrink: 0;
@@ -1314,12 +1368,146 @@ flex-direction: row-reverse;
     background: #EFEFEF;
     box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.25);
   }
+  .Swiper__control{
+    left: 3.6%;
+    gap: 889px;
+  }
  }
 
 
+ .nikeCat {
+  padding-top: 68px;
+  .catItem{
+    &:first-child{
+      background: url('../../img/icon/bgPhoto/workout.gif') no-repeat;
+      background-size: cover;
+      background-position: center;
 
+    }
+    &:nth-child(2){
+      background: url('../../img/icon/bgPhoto/run.gif') no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    &:last-child{
+      background: url('../../img/icon/bgPhoto/football.gif') no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 330px;
+  }
+  .Swiper__title {
+    h3{
+      padding: 0px 0px 15px 20px;
+      color: #000;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      font-weight: 700;
+    }
+   }
+ }
+ 
+ .catBox { }
+ .catItem {
+  
+  h2{
+    padding: 5px 0px 0px 11px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 12px;
+  }
+  }
 
+ @media (min-width: 576px) {  }
 
+ // Medium devices (tablets, 768px and up)
+ @media (min-width: 768px) {  }
+ 
+ // Large devices (desktops, 992px and up)
+ @media (min-width: 992px) {
+  .nikeCat {
+    max-width: 93%;
+    margin: 0 auto;
+    padding-top: 113px;
+    .catItem{
+      h2{
+        
+        color: #000;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 10.8px;
+      }
+      &:first-child{
+        h2{
+          padding-left: 14.5%;
+          padding-top: 9px;
+        }
+        justify-content: left;
+        padding-left: 0px;
+        background-size: 50% 100%;
+        background-position: right;
+  
+      }
+      &:nth-child(2){
+        justify-content: right;
+        padding-right: 0px;
+        background-size: 50% 100%;
+        background-position: left;
+        h2{
+        padding-right: 20.2%;
+        }
+      }
+      &:last-child{
+        h2{
+        padding-left: 14.1%;
+        }
+        justify-content: left;
+        padding-left: 0px;
+        background-size: 50% 100%;
+        background-position: right;
+      }
+      display: flex;
+      
+      align-items: center;
+      width: 100%;
+      height: 570px;
+    }
+
+    .Swiper__title {
+      h3{
+        padding: 0px 0px 22px 48px;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        
+      }
+     }
+   }
+   }
+ 
+ // X-Large devices (large desktops, 1200px and up)
+ @media (min-width: 1200px) {  }
+ 
+ // XX-Large devices (larger desktops, 1400px and up)
+ @media (min-width: 1400px) { }
+ 
 
 
 
