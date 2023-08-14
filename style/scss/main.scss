@@ -31,6 +31,7 @@ body{
   }
   
 }
+
 .noactive-768{
   display: none;
 }
@@ -561,6 +562,7 @@ flex-direction: row-reverse;
 .nikeLine{
   background: url('../../img/gif/nikeLine.gif');
   background-size: cover;
+  background-position: center;
   height: 14px;
 }
 
@@ -681,6 +683,378 @@ flex-direction: row-reverse;
   
   
  }
+ .nikeLogo{
+  position: absolute;
+  display: flex;
+  background: url('../../img/icon/Vector.png') no-repeat;
+  background-size: cover;
+  width: 99.107px;
+  height: 35.167px;
+  flex-shrink: 0;
+  left: 37%;
+  top: 41%;
+  
+ }
+@media (min-width: 576px) {
+  .sneakersbox{
+    left: 25%;
+  }
+  .nikeLogo{
+    left: 45%;
+  }
+  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  .sneakersbox{
+    flex-direction: row;
+    left: 6%;
+  }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .sneakersbox{
+    margin: 39px 0px 0px -33px;
+    gap: 60px;
+  }
+  .newColectionContainer{
+    
+    background-size: 100% 700px;
+    height: 700px;
+  }
+  .nikeLogo{
+    width: 370px;
+    height: 131.29px;
+    flex-shrink: 0;
+    left: 37%;
+    top: 40%;
+  }
+  .sneakersCard{
+    .descriptSneakers{
+      margin: 28px 0px 0px 0px;
+    }
+    h2{
+      color: #FF3939;
+      font-family: Montserrat;
+      font-size: 22px;
+      font-style: italic;
+      font-weight: 700;
+      line-height: normal;
+    }
+    h3{
+      margin-top: 4px;
+      width: 228.786px;
+      color: #000;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.2px;
+    }
+    button{
+      width: 55px;
+      height: 55px;
+      flex-shrink: 0;
+      background-size: 55px 55px;
+      margin-left: 36px;
+    }
+    width: 430.782px;
+    height: 274.471px;
+    flex-shrink: 0;
+    
+    &:first-child{
+      .sneakersItem{
+      width: 364.126px;
+      height: 274.486px;
+      transform: rotate(0.942deg);
+      flex-shrink: 0;
+      margin: -64px 0px 0px -119px;
+      }
+    }
+    &:last-child{
+      .descriptSneakers{
+        h2{
+          margin: 4px 0px 0px 15px;
+        }
+        h3{
+          margin: 20px 0px 0px 17px;
+        }
+        button{
+          margin: 32px 0px 0px 41px;
+        }
+      }
+      .sneakersItem{
+      width: 338.126px;
+      height: 274.486px;
+      transform: rotate(0.942deg);
+      flex-shrink: 0;
+      margin: -55px 0px 0px -127px;
+      }
+    }
+  }
+  
+  }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .sneakersbox{
+    margin: 39px 0px 0px -33px;
+    gap: 60px;
+  }
+  .newColectionContainer{
+    
+    background-size: 100% 700px;
+    height: 700px;
+  }
+  .nikeLogo{
+    width: 370px;
+    height: 131.29px;
+    flex-shrink: 0;
+    left: 37%;
+    top: 40%;
+  }
+  .sneakersCard{
+    .descriptSneakers{
+      margin: 28px 0px 0px 0px;
+    }
+    h2{
+      color: #FF3939;
+      font-family: Montserrat;
+      font-size: 48px;
+      font-style: italic;
+      font-weight: 700;
+      line-height: normal;
+    }
+    h3{
+      margin-top: 4px;
+      width: 228.786px;
+      color: #000;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.2px;
+    }
+    button{
+      width: 55px;
+      height: 55px;
+      flex-shrink: 0;
+      background-size: 55px 55px;
+      margin-left: 36px;
+    }
+    width: 512.782px;
+    height: 274.471px;
+    flex-shrink: 0;
+    
+    &:first-child{
+      .sneakersItem{
+      width: 452.126px;
+      height: 334.486px;
+      transform: rotate(0.942deg);
+      flex-shrink: 0;
+      margin: -102px 0px 0px -112px;
+      }
+    }
+    &:last-child{
+      .descriptSneakers{
+        h2{
+          margin: 4px 0px 0px 15px;
+        }
+        h3{
+          margin: 20px 0px 0px 17px;
+        }
+        button{
+          margin: 32px 0px 0px 41px;
+        }
+      }
+      .sneakersItem{
+      width: 452.126px;
+      height: 334.486px;
+      transform: rotate(0.942deg);
+      flex-shrink: 0;
+      margin: -114px 0px 0px -158px;
+      }
+    }
+  }
+  }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  
+  .sneakersCard{
+    .descriptSneakers{
+      margin: 28px 0px 0px 31px;
+    }
+    h2{
+      color: #FF3939;
+      font-family: Montserrat;
+      font-size: 48px;
+      font-style: italic;
+      font-weight: 700;
+      line-height: normal;
+    }
+    h3{
+      margin-top: 4px;
+      width: 228.786px;
+      color: #000;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.2px;
+    }
+    button{
+      width: 55px;
+      height: 55px;
+      flex-shrink: 0;
+      background-size: 55px 55px;
+      margin-left: 36px;
+    }
+    width: 612.782px;
+    height: 274.471px;
+    flex-shrink: 0;
+    
+    &:first-child{
+      .sneakersItem{
+      width: 558.126px;
+      height: 376.486px;
+      transform: rotate(0.942deg);
+      flex-shrink: 0;
+      margin: -102px 0px 0px -144px;
+      }
+    }
+    &:last-child{
+      .descriptSneakers{
+        h2{
+          margin: 4px 0px 0px 15px;
+        }
+        h3{
+          margin: 20px 0px 0px 17px;
+        }
+        button{
+          margin: 32px 0px 0px 41px;
+        }
+      }
+      .sneakersItem{
+      width: 501.126px;
+      height: 383.486px;
+      transform: rotate(0.942deg);
+      flex-shrink: 0;
+      margin: -85px 0px 0px -124px;
+      }
+    }
+  }
+ }
+
+
+ .summer__box {
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 366px;
+  gap: 5px;
+  h3{
+    margin: 0 auto;
+    
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  p{
+    margin: 0 auto;
+    margin-left: 63px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  h2{
+    margin-left: -7px;
+  }
+}
+ .Title {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: normal;
+  }
+
+
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .summer__box{
+    padding-top: 150px;
+    p{
+      margin: 0 auto;
+    }
+  }
+  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .summer__box{
+    padding-top: 350px;
+    margin-left: -11px;
+    h3{
+      color: #000;
+      font-family: Montserrat;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    p{
+      // margin: 25px 0px 0px 28.6%;
+      margin: 0 auto;
+      margin-top: 25px;
+      color: #000;
+      font-family: Montserrat;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    h2{
+      margin: 5px 0px 0px -13px;
+    }
+  }
+  .Title{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+  }
+  }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { }
+
+
+
+
+
+
+
+
 @media (min-width: 576px) {  }
 
 // Medium devices (tablets, 768px and up)
@@ -694,8 +1068,6 @@ flex-direction: row-reverse;
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) { }
-
-
 
 
 
