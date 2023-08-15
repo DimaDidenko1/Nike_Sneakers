@@ -1202,4 +1202,126 @@
     font-weight: 700;
     line-height: normal;
   }
+}
+.discountBox {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.discountBox .discountCard {
+  border: solid 2px #000;
+  display: flex;
+  margin: 0px 0px 0px 0px;
+}
+.discountBox .discountCard:nth-child(2) .discountPrice {
+  display: flex;
+  flex-direction: column;
+  margin: 36px 0px 0px 63px;
+}
+.discountBox .discountCard:nth-child(2) .discountPrice p {
+  margin: -4px 0px 0px -2px;
+  width: 140px;
+}
+.discountBox .discountCard:nth-child(2) .discountPrice button {
+  margin: 19px 0px 0px 15px;
+}
+.discountBox .discountCard:nth-child(2) .sneakersItem {
+  background: url("../../img/sneakers/Nike-Shoe.png") no-repeat;
+  background-size: cover;
+  width: 313.164px;
+  height: 201.163px;
+  transform: rotate(-0.84deg);
+  flex-shrink: 0;
+  margin: -78px 0px 0px -112px;
+}
+.discountBox .discountCard:last-child .discountPrice {
+  display: flex;
+  flex-direction: column;
+  margin: 36px 0px 0px 63px;
+}
+.discountBox .discountCard:last-child .discountPrice p {
+  margin: -1px 0px 0px -2px;
+  width: 140px;
+}
+.discountBox .discountCard:last-child .discountPrice button {
+  margin: 19px 0px 0px 15px;
+}
+.discountBox .discountCard:last-child .sneakersItem {
+  background: url("../../img/sneakers/Green 1.png") no-repeat;
+  background-size: cover;
+  width: 291.164px;
+  height: 201.163px;
+  transform: rotate(-0.84deg);
+  flex-shrink: 0;
+  margin: -62px 0px 0px -102px;
+}
+
+.discountTitle {
+  margin: 46px 0px 0px 20px;
+  width: 335px;
+}
+.discountTitle span {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: normal;
+}
+.discountTitle span:first-child {
+  padding-left: 0px;
+}
+.discountTitle span:nth-child(2) {
+  padding-left: 85px;
+}
+.discountTitle span:last-child {
+  padding-left: 163px;
+}
+
+.discountCard {
+  width: 302.295px;
+  height: 137.683px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: #EFEFEF;
+  box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.discountPrice button {
+  background: url("../../img/icon/Group 59.png") no-repeat;
+  background-size: 25px 25px;
+  background-position: center;
+  width: 25.21px;
+  height: 25.378px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 50%;
+}
+.discountPrice p {
+  color: #202727;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.redTitle {
+  display: flex;
+  gap: 7px;
+}
+.redTitle h2 {
+  color: #FF3939;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media (min-width: 576px) {
+  .discountBox {
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=main.css.map */

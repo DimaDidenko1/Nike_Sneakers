@@ -1509,11 +1509,153 @@ flex-direction: row-reverse;
  @media (min-width: 1400px) { }
  
 
+ .discountBox {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  .discountCard{
+    border: solid 2px #000;
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    &:nth-child(2){
+      .discountPrice{
+        
+        display: flex;
+        flex-direction: column;
+        margin: 36px 0px 0px 63px;
+        p{
+          margin: -4px 0px 0px -2px;
+          width: 140px;
+        }
+        button{
+          margin: 19px 0px 0px 15px;
+        }
+      }
+      .sneakersItem{
+        background: url('../../img/sneakers/Nike-Shoe.png') no-repeat;
+        background-size: cover;
+        width: 313.164px;
+        height: 201.163px;
+        transform: rotate(-0.84deg);
+        flex-shrink: 0;
+        margin: -78px 0px 0px -112px;
+    }
+  }
+  &:last-child{
+    .discountPrice{
+        display: flex;
+        flex-direction: column;
+        margin: 36px 0px 0px 63px;
+        p{
+          margin: -1px 0px 0px -2px;
+          width: 140px;
+        }
+        button{
+          margin: 19px 0px 0px 15px;
+        }
+    }
+      .sneakersItem{
+        background: url('../../img/sneakers/Green\ 1.png') no-repeat;
+        background-size: cover;
+        width: 291.164px;
+        height: 201.163px;
+        transform: rotate(-0.84deg);
+        flex-shrink: 0;
+        margin: -62px 0px 0px -102px;
+    }
+
+  }
+  }
+  
+  }
+ .discountTitle {
+  margin: 46px 0px 0px 20px;
+  width: 335px;
+  span{
+        
+        color: #000;
+        font-family: 'Montserrat';
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 900;
+        line-height: normal;
+        
+    &:first-child{
+      padding-left: 0px;
+    }
+    &:nth-child(2){
+      padding-left: 85px;
+    }
+    &:last-child{
+      
+      padding-left: 163px;
+    }
+  }
+  }
+ .discountCard { 
+  width: 302.295px;
+  height: 137.683px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: #EFEFEF;
+  box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.25);
+  
+ }
+ .discountPrice {
+  button{
+    background: url('../../img/icon/Group\ 59.png') no-repeat;
+    background-size: 25px 25px;
+    background-position: center;
+    width: 25.21px;
+    height: 25.378px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 50%;
+  }
+  p{
+    color: #202727;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  }
+ .redTitle {
+  display: flex;
+  gap: 7px;
+    h2{
+      color: #FF3939;
+      font-family: Montserrat;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+ .sneakersItem { }
 
 
 
+ @media (min-width: 576px) { 
+  .discountBox{
+    margin: 0 auto;
+  }
+  }
 
-
+ // Medium devices (tablets, 768px and up)
+ @media (min-width: 768px) {  }
+ 
+ // Large devices (desktops, 992px and up)
+ @media (min-width: 992px) {  }
+ 
+ // X-Large devices (large desktops, 1200px and up)
+ @media (min-width: 1200px) {  }
+ 
+ // XX-Large devices (larger desktops, 1400px and up)
+ @media (min-width: 1400px) { }
+ 
 
 
 
