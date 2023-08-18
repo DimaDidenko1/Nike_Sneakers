@@ -1194,7 +1194,7 @@
     padding-left: 14.1%;
   }
   .nikeCat .Swiper__title h3 {
-    padding: 0px 0px 22px 48px;
+    padding: 4px 0px 22px 0px;
     color: #000;
     font-family: Montserrat;
     font-size: 40px;
@@ -1207,6 +1207,19 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
+}
+.discountBox .noactive-992 h2 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.discountBox .noactive-992 h2 span:first-child {
+  padding-left: 0px;
+}
+.discountBox .noactive-992 h2 span:last-child {
+  padding-left: 162px;
+}
+.discountBox .runs {
+  padding-left: 0px;
 }
 .discountBox .discountCard {
   display: flex;
@@ -1256,8 +1269,7 @@
 }
 
 .discountTitle {
-  margin: 46px 0px 0px 20px;
-  width: 335px;
+  margin: 18px 0px 0px 20px;
 }
 .discountTitle span {
   color: #000;
@@ -1270,7 +1282,7 @@
 .discountTitle span:first-child {
   padding-left: 0px;
 }
-.discountTitle span:nth-child(2) {
+.discountTitle span:nth-child(4) {
   padding-left: 85px;
 }
 .discountTitle span:last-child {
@@ -1278,7 +1290,7 @@
 }
 
 .discountCard {
-  width: 302.295px;
+  width: 331.295px;
   height: 137.683px;
   flex-shrink: 0;
   border-radius: 18px;
@@ -1705,9 +1717,9 @@
   background: #000;
   display: flex;
   flex-direction: row;
-  padding: 26px 20px;
+  padding: 31px 20px;
   justify-content: center;
-  gap: 39px;
+  gap: 29px;
 }
 
 .footer__list h2 {
@@ -1721,9 +1733,55 @@
 }
 
 .footer__logo {
+  margin: -7px 0px 0px 11px;
   background: url("../../img/bgPhoto/Vector (1).png") no-repeat;
   background-size: 167px 68px;
   width: 167px;
   height: 68px;
   flex-shrink: 0;
+}
+
+@media (min-width: 992px) {
+  .discountTitle span:nth-child(4) {
+    padding: 0px;
+  }
+  .Footer {
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    padding: 76px 20px;
+    justify-content: center;
+    gap: 293px;
+  }
+  .footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer__list h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .footer__list h2:first-child {
+    margin-top: 0px;
+  }
+  .footer__list h2:nth-child(2) {
+    margin-top: -8px;
+  }
+  .footer__list h2:last-child {
+    margin-top: -11px;
+  }
+  .footer__logo {
+    margin: -7px 0px 0px 11px;
+    background: url("../../img/bgPhoto/Vector (1).png") no-repeat;
+    background-size: 500px 195px;
+    width: 500px;
+    height: 195px;
+    flex-shrink: 0;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1489,7 +1489,7 @@ flex-direction: row-reverse;
 
     .Swiper__title {
       h3{
-        padding: 0px 0px 22px 48px;
+        padding: 4px 0px 22px 0px;
         color: #000;
         font-family: Montserrat;
         font-size: 40px;
@@ -1513,6 +1513,30 @@ flex-direction: row-reverse;
   display: flex;
   flex-direction: column;
   gap: 50px;
+  .noactive-992{
+    
+    h2{
+      margin-top: 0px;
+      
+        padding-top: 0px;
+        span{
+          &:first-child{
+            
+              padding-left: 0px;
+            
+          }
+          
+          &:last-child{
+            
+              padding-left: 162px;
+            
+          }
+        }
+    }
+  }
+  .runs{
+    padding-left: 0px;
+  }
   .discountCard{
     display: flex;
     margin: 0px 0px 0px 0px;
@@ -1568,8 +1592,9 @@ flex-direction: row-reverse;
   
   }
  .discountTitle {
-  margin: 46px 0px 0px 20px;
-  width: 335px;
+  margin: 18px 0px 0px 20px;
+  
+  
   span{
         
         color: #000;
@@ -1581,19 +1606,22 @@ flex-direction: row-reverse;
         
     &:first-child{
       padding-left: 0px;
+      
     }
-    &:nth-child(2){
+    &:nth-child(4){
       padding-left: 85px;
+      
     }
     &:last-child{
       
       padding-left: 163px;
+      
     }
   }
   }
  .discountCard { 
  
-  width: 302.295px;
+  width: 331.295px;
   height: 137.683px;
   flex-shrink: 0;
   border-radius: 18px;
@@ -1603,6 +1631,7 @@ flex-direction: row-reverse;
   
  }
  .discountPrice {
+  
   button{
     background: url('../../img/icon/Group\ 59.png') no-repeat;
     background-size: 25px 25px;
@@ -2109,12 +2138,13 @@ flex-direction: row-reverse;
 
 
  .Footer {
+  
   background: #000;
   display: flex;
   flex-direction: row;
-  padding: 26px 20px;
+  padding: 31px 20px;
   justify-content: center;
-  gap: 39px;
+  gap: 29px;
   }
  .footer__list { 
   h2{
@@ -2128,6 +2158,7 @@ flex-direction: row-reverse;
   }
  }
  .footer__logo {
+  margin: -7px 0px 0px 11px;
   background: url('../../img/bgPhoto/Vector\ \(1\).png') no-repeat;
   background-size: 167px 68px;
   width: 167px;
@@ -2154,7 +2185,51 @@ flex-direction: row-reverse;
 @media (min-width: 768px) {  }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {  }
+@media (min-width: 992px) { 
+  .discountTitle span:nth-child(4){
+    padding: 0px;
+  }
+  .Footer {
+  
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    padding: 76px 20px;
+    justify-content: center;
+    gap: 293px;
+    }
+   .footer__list { 
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    h2{
+      &:first-child{
+        margin-top: 0px;
+            }
+      &:nth-child(2){
+        margin-top: -8px;
+            }
+      &:last-child{
+        margin-top: -11px;
+            }
+      color: #FFF;
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+   }
+   .footer__logo {
+    margin: -7px 0px 0px 11px;
+    background: url('../../img/bgPhoto/Vector\ \(1\).png') no-repeat;
+    background-size: 500px 195px;
+    width: 500px;
+    height: 195px;
+    flex-shrink: 0;
+    }
+ }
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {  }
